@@ -1,0 +1,14 @@
+<Context>
+	<Resource
+		name="jdbc/MySQLDB"
+		auth="Container"
+		type="javax.sql.DataSource"
+		username="root"
+		password="1234"
+		driverClassName="com.mysql.jdbc.Driver"
+		factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
+		url="jdbc:mysql://localhost:3306/myweb?useUnicode=true&amp;characterEncoding=UTF-8"
+		maxActive="500"
+		maxIdle="100"
+	/>
+</Context>
